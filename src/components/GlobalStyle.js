@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-const GLobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +9,7 @@ const GLobalStyle = createGlobalStyle`
 
 body {
     background: #1b1b1b;
+    font-family: 'Inter', sans-serif;
 }
 button {
     font-weight: bold;
@@ -17,6 +18,7 @@ button {
     padding: 1rem 2rem;
     border: 3px solid #23d997;
     transition: all 0.5s ease;
+    font-family: 'Inter', sans-serif;
     &:hover{
         background-color: #23d997;
     }  
@@ -46,4 +48,4 @@ h2 {
     } 
 `;
 
-export default GLobalStyle;
+export default GlobalStyle;
