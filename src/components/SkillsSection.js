@@ -8,10 +8,18 @@ import home2 from "../img/home2.png";
 //Styles
 import { About, Description, Image } from "../styles";
 import styled from "styled-components";
+import { scrollReveal } from "../animation";
+import { useScroll } from "./useScroll";
 
 const SkillsSection = () => {
+  const [element, controls] = useScroll();
   return (
-    <Skills>
+    <Skills
+      variants={scrollReveal}
+      animate={controls}
+      initial="hidden"
+      ref={element}
+    >
       <Description>
         <h2>
           High <span>quality</span> services
@@ -68,7 +76,7 @@ const Cards = styled.div`
   flex-wrap: wrap;
 `;
 const Card = styled.div`
-  flex-basis: 20rem;
+  flex-basis: 30rem;
   .icon {
     display: flex;
     align-items: center;
