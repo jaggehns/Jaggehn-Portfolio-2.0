@@ -43,8 +43,8 @@ const FaqSection = () => {
           <div className="answer">
             <p>Did I study CS?</p>
             <p>
-              Nope, I am an Electrical and Electronic major who fell in love
-              with the art of talking in the computers language!
+              Nope, I am an Electrical and Electronic Engineering major who fell
+              in love with the art of talking in the computers language!
             </p>
           </div>
         </Toggle>
