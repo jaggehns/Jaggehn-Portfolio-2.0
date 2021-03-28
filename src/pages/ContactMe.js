@@ -14,11 +14,11 @@ const ContactMe = () => {
       style={{ background: "#fff" }}
     >
       <motion.form action="https://formspree.io/f/mwkwdlke" method="POST">
-        <label for="name">Name</label>
+        <label htmlFor="name">Name</label>
         <motion.input type="text" name="name" id="name" required />
-        <label for="email">Email</label>
+        <label htmlFor="email">Email</label>
         <motion.input type="email" name="_replyto" id="email" required />
-        <label for="message">Message</label>
+        <label htmlFor="message">Message</label>
         <motion.textarea
           name="message"
           id="message"
