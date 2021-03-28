@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 html {
+    overflow-x: hidden;
     @media (max-width: 1700px) { 
         font-size: 75%;
     }
@@ -17,6 +18,7 @@ body {
     background: #1b1b1b;
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
+    position: relative;
 }
 button {
     font-weight: bold;
