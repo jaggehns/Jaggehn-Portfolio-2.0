@@ -1,79 +1,132 @@
 //Import Images
-import athlete from "./img/athlete-small.png";
-import goodtimes from "./img/goodtimes-small.png";
-import theracer from "./img/theracer-small.png";
-import athlete2 from "./img/athlete2.png";
-import goodtimes2 from "./img/good-times2.jpg";
-import theracer2 from "./img/the-racer2.jpg";
+import travelly from "./img/travelly.png";
+import travelly1 from "./img/travelly1.png";
+import coloors from "./img/coloors.png";
+import photon from "./img/photon.png";
+import photon1 from "./img/photon1.png";
 
 export const ProjectState = () => {
   return [
     {
-      title: "The Athlete",
-      mainImg: athlete,
-      secondaryImg: athlete2,
-      url: "/work/the-athlete",
+      title: "Travelly",
+      mainImg: travelly,
+      secondaryImg: travelly1,
+      url: "/work/travelly",
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "About",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“A travel agency website utilizing HTML5 and CSS3 for a clean, elegant design.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
-          description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+          title: "Website",
+          description: (
+            <div>
+              <a
+                style={{ color: "white" }}
+                href="https://travelly-jaggehn.netlify.app/"
+                target="_blank"
+              >
+                Click here!
+              </a>
+            </div>
+          ),
         },
         {
-          title: "It’s okay lmao.",
-          description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+          title: "GitHub",
+          description: (
+            <div>
+              <a
+                style={{ color: "white" }}
+                href="https://github.com/jaggehns/Travelly"
+                target="_blank"
+              >
+                Click here!
+              </a>
+            </div>
+          ),
         },
       ],
     },
     {
-      title: "Good Times",
-      mainImg: goodtimes,
-      url: "/work/good-times",
-      secondaryImg: goodtimes2,
+      title: "Photon",
+      mainImg: photon,
+      url: "/work/photon",
+      secondaryImg: photon1,
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "About",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“A photo searching app fetching an external API (Pexels). HTML5, CSS3 & Vanilla JavaScript.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
-          description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+          title: "Website",
+          description: (
+            <div>
+              <a
+                style={{ color: "white" }}
+                href="https://jaggehn-photon.netlify.app/"
+                target="_blank"
+              >
+                Click here!
+              </a>
+            </div>
+          ),
         },
         {
-          title: "It’s okay lmao.",
-          description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+          title: "GitHub",
+          description: (
+            <div>
+              <a
+                style={{ color: "white" }}
+                href="https://github.com/jaggehns/Photon"
+                target="_blank"
+              >
+                Click here!
+              </a>
+            </div>
+          ),
         },
       ],
     },
     {
-      title: "The Racer",
-      mainImg: theracer,
-      url: "/work/the-racer",
-      secondaryImg: theracer2,
+      title: "Coloors",
+      mainImg: coloors,
+      url: "/work/coloors",
+      secondaryImg: coloors,
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "About",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“A color generating app with storage system developed using HTML5, CSS and Vanilla JavaScript.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
-          description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+          title: "Website",
+          description: (
+            <div>
+              <a
+                style={{ color: "white" }}
+                href="https://coloors-jaggehn.netlify.app/"
+                target="_blank"
+              >
+                Click here!
+              </a>
+            </div>
+          ),
         },
         {
-          title: "It’s okay lmao.",
-          description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+          title: "GitHub",
+          description: (
+            <div>
+              <a
+                style={{ color: "white" }}
+                href="https://github.com/jaggehns/Coloors"
+                target="_blank"
+              >
+                Click here!
+              </a>
+            </div>
+          ),
         },
       ],
     },

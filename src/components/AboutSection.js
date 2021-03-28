@@ -1,5 +1,6 @@
 import React from "react";
-import home1 from "../img/home1.png";
+import jaggehn2 from "../img/jaggehn2.png";
+import { Link } from "react-router-dom";
 //Styled
 import { About, Description, Image, Hide } from "../styles";
 //Framer Motion
@@ -13,25 +14,23 @@ const AboutSection = () => {
       <Description>
         <motion.div>
           <Hide>
-            <motion.h2 variants={titleAnim}>We work to make</motion.h2>
+            <motion.h2 variants={titleAnim}>Hi, my name is</motion.h2>
           </Hide>
           <Hide>
             <motion.h2 variants={titleAnim}>
-              your <span>dreams</span> come
+              <span>Jaggehn.</span>
             </motion.h2>
-          </Hide>
-          <Hide>
-            <motion.h2 variants={titleAnim}>true</motion.h2>
           </Hide>
         </motion.div>
         <motion.p variants={fade}>
-          Contact us for any project ideas or collaboration that you have. I am
-          a professional with amazing skills
+          I'm a Front-End Developer specializing in HTML, CSS and JavaScript.
         </motion.p>
-        <motion.button variants={fade}>Contact Us</motion.button>
+        <Link to="/contact">
+          <motion.button variants={fade}>Contact Me</motion.button>
+        </Link>
       </Description>
       <Image>
-        <motion.img variants={photoAnim} src={home1} alt="me" />
+        <motion.img variants={photoAnim} src={jaggehn2} alt="me" />
       </Image>
       <Wave />
     </About>

@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 //Images
-import athlete from "../img/athlete-small.png";
-import theracer from "../img/theracer-small.png";
-import goodtimes from "../img/goodtimes-small.png";
+import travelly from "../img/travelly.png";
+import coloors from "../img/coloors.png";
+import photon from "../img/photon.png";
 //Animations
 import { motion } from "framer-motion";
 import {
@@ -36,11 +36,11 @@ const MyWork = () => {
         <Frame4 variants={slider}></Frame4>
       </motion.div>
       <Project>
-        <motion.h2 variants={fade}>The Athlete</motion.h2>
+        <motion.h2 variants={fade}>Travelly</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/the-athlete">
+        <Link to="/work/travelly">
           <Hide>
-            <motion.img variants={photoAnim} src={athlete} alt="athlete" />
+            <motion.img variants={photoAnim} src={travelly} alt="athlete" />
           </Hide>
         </Link>
       </Project>
@@ -50,10 +50,10 @@ const MyWork = () => {
         animate={controls}
         initial="hidden"
       >
-        <h2>The Racer</h2>
+        <h2>Coloors</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/the-racer">
-          <img src={theracer} alt="theracer" />
+        <Link to="/work/coloors">
+          <img src={coloors} alt="theracer" />
         </Link>
       </Project>
       <Project
@@ -62,10 +62,10 @@ const MyWork = () => {
         animate={controls2}
         initial="hidden"
       >
-        <h2>Good Times</h2>
+        <h2>Photon</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/good-times">
-          <img src={goodtimes} alt="goodtimes" />
+        <Link to="/work/photon">
+          <img src={photon} alt="goodtimes" />
         </Link>
       </Project>
       <ScrollTop />

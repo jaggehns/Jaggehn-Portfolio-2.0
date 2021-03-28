@@ -21,37 +21,41 @@ const FaqSection = () => {
       <AnimateSharedLayout>
         <Toggle title="Where Am I Based?">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Where is my current location?</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-              temporibus.
+              I am currently based in Kuala Lumpur, Malaysia. However, I am
+              willing to relocate for the right opportunity.
             </p>
           </div>
         </Toggle>
         <Toggle title={"How Long Have I Been Coding for?"}>
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>When did my programming journey start?</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-              tenetur.
+              This one is a long winded story and it's best to hear it face to
+              face. In short, I dabbled a little bit when I was younger,
+              rediscovered it when I was in university and the rest as they say,
+              is history!
             </p>
           </div>
         </Toggle>
         <Toggle title="What Is My Background?">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Did I study CS?</p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta,
-              eius.
+              Nope, I am an Electrical and Electronic major who fell in love
+              with the art of talking in the computers language!
             </p>
           </div>
         </Toggle>
         <Toggle title="What Are My Values?">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>What do I bring to the table?</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              dolorum.
+              I believe in a life of never-ending learning. The moment you stop,
+              there really is nothing to live for. I'm also a hard-worker who
+              spends alot of time perfecting my craft. Finally, I enjoy social
+              interactions and love working in a team setting.
             </p>
           </div>
         </Toggle>

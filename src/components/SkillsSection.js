@@ -1,9 +1,9 @@
 import React from "react";
 //Import icons
-import clock from "../img/clock.svg";
-import diaphragm from "../img/diaphragm.svg";
-import money from "../img/money.svg";
-import teamwork from "../img/teamwork.svg";
+import html from "../img/html.svg";
+import css3 from "../img/css3.svg";
+import js1 from "../img/js1.svg";
+import react from "../img/react.svg";
 import home2 from "../img/home2.png";
 //Styles
 import { About, Description, Image } from "../styles";
@@ -22,36 +22,36 @@ const SkillsSection = () => {
     >
       <Description>
         <h2>
-          High <span>quality</span> services
+          My <span>skills.</span>
         </h2>
         <Cards>
           <Card>
             <div className="icon">
-              <img alt="icon" src={clock} />
-              <h3>Efficient</h3>
+              <img alt="icon" src={html} />
+              <h3>HTML5</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Clean, modern, semantic HTML5.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img alt="icon" src={teamwork} />
-              <h3>Teamwork</h3>
+              <img alt="icon" src={css3} />
+              <h3>CSS3</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Stylistic, responsive CSS3.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img alt="icon" src={diaphragm} />
-              <h3>Diaphragm</h3>
+              <img alt="icon" src={js1} />
+              <h3>JavaScript</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>From ES6 to best practices.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img alt="icon" src={money} />
-              <h3>Affordable</h3>
+              <img alt="icon" src={react} />
+              <h3>React JS</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>This whole website was made on React!</p>
           </Card>
         </Cards>
       </Description>
