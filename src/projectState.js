@@ -26,6 +26,7 @@ export const ProjectState = () => {
                 style={{ color: "white" }}
                 href="https://travelly-jaggehn.netlify.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Click here!
               </a>
@@ -40,6 +41,7 @@ export const ProjectState = () => {
                 style={{ color: "white" }}
                 href="https://github.com/jaggehns/Travelly"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Click here!
               </a>
@@ -67,6 +69,7 @@ export const ProjectState = () => {
                 style={{ color: "white" }}
                 href="https://jaggehn-photon.netlify.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Click here!
               </a>
@@ -81,6 +84,7 @@ export const ProjectState = () => {
                 style={{ color: "white" }}
                 href="https://github.com/jaggehns/Photon"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Click here!
               </a>
@@ -108,6 +112,7 @@ export const ProjectState = () => {
                 style={{ color: "white" }}
                 href="https://coloors-jaggehn.netlify.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Click here!
               </a>
@@ -122,6 +127,7 @@ export const ProjectState = () => {
                 style={{ color: "white" }}
                 href="https://github.com/jaggehns/Coloors"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Click here!
               </a>
