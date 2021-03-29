@@ -170,7 +170,7 @@ export const ProjectState = () => {
             <div>
               <a
                 style={{ color: "white" }}
-                href="https://github.com/jaggehns/Coloors"
+                href="https://github.com/jaggehns/Elena-Joy-Photography"
                 target="_blank"
                 rel="noopener noreferrer"
               >
