@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 //Images
 import travelly from "../img/travelly.png";
 import coloors from "../img/coloors.png";
+import elena from "../img/elena.png";
 import photon from "../img/photon.png";
 //Animations
 import { motion } from "framer-motion";
@@ -21,6 +22,7 @@ import ScrollTop from "../components/ScrollTop";
 const MyWork = () => {
   const [element, controls] = useScroll();
   const [element2, controls2] = useScroll();
+  const [element3, controls3] = useScroll();
   return (
     <Work
       style={{ background: "#fff" }}
@@ -40,7 +42,7 @@ const MyWork = () => {
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/travelly">
           <Hide>
-            <motion.img variants={photoAnim} src={travelly} alt="athlete" />
+            <motion.img variants={photoAnim} src={travelly} alt="travelly" />
           </Hide>
         </Link>
       </Project>
@@ -50,10 +52,10 @@ const MyWork = () => {
         animate={controls}
         initial="hidden"
       >
-        <h2>Coloors</h2>
+        <h2>Elena Joy</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/coloors">
-          <img src={coloors} alt="theracer" />
+        <Link to="/work/elena">
+          <img src={elena} alt="elena" />
         </Link>
       </Project>
       <Project
@@ -62,10 +64,22 @@ const MyWork = () => {
         animate={controls2}
         initial="hidden"
       >
+        <h2>Coloors</h2>
+        <motion.div variants={lineAnim} className="line"></motion.div>
+        <Link to="/work/coloors">
+          <img src={coloors} alt="coloors" />
+        </Link>
+      </Project>
+      <Project
+        ref={element3}
+        variants={fade}
+        animate={controls3}
+        initial="hidden"
+      >
         <h2>Photon</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/photon">
-          <img src={photon} alt="goodtimes" />
+          <img src={photon} alt="photon" />
         </Link>
       </Project>
       <ScrollTop />

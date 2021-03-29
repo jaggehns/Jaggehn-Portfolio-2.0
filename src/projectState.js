@@ -1,6 +1,8 @@
 //Import Images
 import travelly from "./img/travelly.png";
 import travelly1 from "./img/travelly1.png";
+import elena from "./img/elena.png";
+import elena1 from "./img/elena1.png";
 import coloors from "./img/coloors.png";
 import photon from "./img/photon.png";
 import photon1 from "./img/photon1.png";
@@ -102,7 +104,7 @@ export const ProjectState = () => {
         {
           title: "About",
           description:
-            "“A color generating app with storage system developed using HTML5, CSS and Vanilla JavaScript.”",
+            "“A color generating app with storage system developed using HTML5, CSS3 and Vanilla JavaScript.”",
         },
         {
           title: "Website",
@@ -111,6 +113,49 @@ export const ProjectState = () => {
               <a
                 style={{ color: "white" }}
                 href="https://coloors-jaggehn.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click here!
+              </a>
+            </div>
+          ),
+        },
+        {
+          title: "GitHub",
+          description: (
+            <div>
+              <a
+                style={{ color: "white" }}
+                href="https://github.com/jaggehns/Coloors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click here!
+              </a>
+            </div>
+          ),
+        },
+      ],
+    },
+    {
+      title: "Elena Joy",
+      mainImg: elena,
+      url: "/work/elena",
+      secondaryImg: elena1,
+      awards: [
+        {
+          title: "About",
+          description:
+            "“A photography website utilizing HTML5, CSS3 and Vanilla JavaScript.”",
+        },
+        {
+          title: "Website",
+          description: (
+            <div>
+              <a
+                style={{ color: "white" }}
+                href="https://elena-joy-photography-jaggehn.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
