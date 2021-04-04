@@ -44,7 +44,7 @@ const ContactMe = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <motion.img src={github} alt="twitter-social" />
+                <motion.img src={github} alt="github-social" />
               </a>
             </motion.li>
             <motion.li>
