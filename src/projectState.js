@@ -61,7 +61,7 @@ export const ProjectState = () => {
         {
           title: "About",
           description:
-            "“A photo searching app fetching an external API (Pexels). HTML5, CSS3 & Vanilla JavaScript.”",
+            "“A photo searching app fetching an external API (Pexels). HTML5, CSS3 & Vanilla JavaScript (Async).”",
         },
         {
           title: "Website",
@@ -147,7 +147,7 @@ export const ProjectState = () => {
         {
           title: "About",
           description:
-            "“A photography website utilizing HTML5, CSS3 and Vanilla JavaScript.”",
+            "“A photography website utilizing HTML5, CSS3 and Vanilla JavaScript with an emphasis on CSS Grid.”",
         },
         {
           title: "Website",
