@@ -23,7 +23,8 @@ const AboutSection = () => {
           </Hide>
         </motion.div>
         <motion.p variants={fade}>
-          I'm a Front-End Developer specializing in HTML, CSS and JavaScript.
+          I'm a Front-End Developer specializing in HTML, CSS, JavaScript and
+          React JS.
         </motion.p>
         <Link to="/contact">
           <motion.button variants={fade}>Contact Me</motion.button>
