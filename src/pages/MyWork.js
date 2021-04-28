@@ -6,6 +6,8 @@ import travelly from "../img/travelly.png";
 import coloors from "../img/coloors.png";
 import elena from "../img/elena.png";
 import photon from "../img/photon.png";
+import fb from "..//img/fb.png";
+import covid from "..//img/covid.png";
 //Animations
 import { motion } from "framer-motion";
 import {
@@ -23,6 +25,8 @@ const MyWork = () => {
   const [element, controls] = useScroll();
   const [element2, controls2] = useScroll();
   const [element3, controls3] = useScroll();
+  const [element4, controls4] = useScroll();
+  const [element5, controls5] = useScroll();
   return (
     <Work
       style={{ background: "#fff" }}
@@ -74,6 +78,30 @@ const MyWork = () => {
         ref={element3}
         variants={fade}
         animate={controls3}
+        initial="hidden"
+      >
+        <h2>FB Messenger Clone</h2>
+        <motion.div variants={lineAnim} className="line"></motion.div>
+        <Link to="/work/fbclone">
+          <img src={fb} alt="fb" />
+        </Link>
+      </Project>
+      <Project
+        ref={element4}
+        variants={fade}
+        animate={controls4}
+        initial="hidden"
+      >
+        <h2>COVID-19 Tracker</h2>
+        <motion.div variants={lineAnim} className="line"></motion.div>
+        <Link to="/work/covidtracker">
+          <img src={covid} alt="covid" />
+        </Link>
+      </Project>
+      <Project
+        ref={element5}
+        variants={fade}
+        animate={controls5}
         initial="hidden"
       >
         <h2>Photon</h2>
