@@ -6,6 +6,10 @@ import elena1 from "./img/elena1.png";
 import coloors from "./img/coloors.png";
 import photon from "./img/photon.png";
 import photon1 from "./img/photon1.png";
+import fb from "./img/fb.png";
+import fb2 from "./img/fb2.png";
+import covid1 from "./img/covid.png";
+import covid2 from "./img/covid2.png";
 
 export const ProjectState = () => {
   return [
@@ -128,6 +132,92 @@ export const ProjectState = () => {
               <a
                 style={{ color: "white" }}
                 href="https://github.com/jaggehns/Coloors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click here!
+              </a>
+            </div>
+          ),
+        },
+      ],
+    },
+    {
+      title: "FB Messenger Clone",
+      mainImg: fb,
+      url: "/work/fbclone",
+      secondaryImg: fb2,
+      awards: [
+        {
+          title: "About",
+          description:
+            "“A Facebook Messenger Clone utilizing React JS, Material UI & Firebase.”",
+        },
+        {
+          title: "Website",
+          description: (
+            <div>
+              <a
+                style={{ color: "white" }}
+                href="https://fb-messenger-react-fireb-b78d6.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click here!
+              </a>
+            </div>
+          ),
+        },
+        {
+          title: "GitHub",
+          description: (
+            <div>
+              <a
+                style={{ color: "white" }}
+                href="https://github.com/jaggehns/FB-Messenger-React-Firebase"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click here!
+              </a>
+            </div>
+          ),
+        },
+      ],
+    },
+    {
+      title: "COVID-19 Tracker",
+      mainImg: covid1,
+      url: "/work/covidtracker",
+      secondaryImg: covid2,
+      awards: [
+        {
+          title: "About",
+          description:
+            "“A COVID-19 worldwide tracker utilzing React JS, Material UI, Chart JS, Leaflet & Firebase.”",
+        },
+        {
+          title: "Website",
+          description: (
+            <div>
+              <a
+                style={{ color: "white" }}
+                href="https://covid-tracker-jaggehn.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click here!
+              </a>
+            </div>
+          ),
+        },
+        {
+          title: "GitHub",
+          description: (
+            <div>
+              <a
+                style={{ color: "white" }}
+                href="https://github.com/jaggehns/COVID-19-Tracker-React"
                 target="_blank"
                 rel="noopener noreferrer"
               >
